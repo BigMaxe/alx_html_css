@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans 3', sans-serif;
+    color: #fff;
+    background-color: #111;
+}
+
+header {
+    background: transparent;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 140px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 12px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+header nav a img {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+#banner {
+    background: linear-gradient(rgba(10, 25, 47, 0.7), rgba(10, 25, 47, 0.8)), url('./image/CSS Advanced/Object.png') no-repeat center center/cover;
+    text-align: center;
+    padding: 120px 20px 60px;
+}
+
+#banner h1 {
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 2px;
+    padding: auto;
+}
+
+#banner span {
+    display: inline-block;
+    margin: 0 30px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: #ccc;
+    margin-bottom: 10px;
+}
+
+#banner button {
+    margin-top: 20px;
+    padding: 12px 19px;
+    background: #a855f7;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 0.6rem;
+    box-shadow: 0 0 16px 4px rgba(0, 0, 0, 0.3);
+}
+
+#banner h2 span {
+    margin-top: 80px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #C271FF;
+    margin-right: 3px;
+}
+
+#banner h2 {
+    font-size: 22px;
+    font-weight: 300;
+    color: #fff;
+    margin: 0;
+}
+
+#banner > div:last-child > div {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px
+}
+
+#banner > div:last-child > div div {
+    text-align: center;
+}
+
+#banner img {
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+    object-fit: cover;
+    margin-bottom: 9px;
+}
+
+#banner h3 {
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+#banner p {
+    font-size: 0.65rem;
+    color: #ddd;
+}

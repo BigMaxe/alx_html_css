@@ -60,6 +60,7 @@ The project includes:
 - **CSS3** – for styling
 - **Figma** – as the design reference
 - **Google Fonts** – for typography
+- **Visual Studio Code** – for IDEs and development
 
 ---
 
