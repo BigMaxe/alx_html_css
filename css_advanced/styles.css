@@ -183,3 +183,100 @@ blockquote {
     font-style: italic;
     opacity: 0.8;
 }
+
+#videos {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    align-items: center;
+    background-color: #ffffff;
+    padding: 50px;
+}
+
+#videos h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #111;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#videos h2 span {
+    color: #C271FF;
+    font-weight: 700;
+}
+
+.videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.videos > div {
+    width: 22%;
+    background-color: #ffffff;
+    border-radius: 30px;
+    /* box-shadow: 0 0 6px  rgba(0, 0, 0, 0.3); */
+    padding: 10px;
+    margin: auto;
+}
+
+.videos > div:hover {
+    box-shadow: 0 0 6px  rgba(0, 0, 0, 0.3);
+}
+
+.videos > div img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    object-fit: cover;
+}
+
+.videos > div h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin: 10px 0;
+}
+
+.videos > div p {
+    font-size: 10px;
+    color: #333;
+    line-height: 1.1;
+    margin: 20px 0;
+}
+
+.videos > div > div {
+    display: flex;
+    align-items: center;
+}
+
+.videos > div > div img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+.videos > div > div h4 {
+    font-size: 12px;
+    font-weight: 600;
+    color: #333;
+    margin-left: 10px;
+}
+
+.videos > div > div.rating {
+    display: flex;
+    gap: 5px;
+    color: #C271FF;
+    font-size: 10px;
+    margin: 6px 0;
+}
+
+.videos > div p.duration {
+    align-items: right;
+    color: #C271FF;
+    font-size: 10px;
+    margin-left: 70px;
+}
