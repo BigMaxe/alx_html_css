@@ -281,6 +281,27 @@ header nav a img {
         background-repeat: no-repeat;
         background-image: url('./images/images/headphones_hero_1.jpg');
     }
+
+    #what-we-do {
+        padding: 80px 40px;
+    }
+
+    #what-we-do > div > div.what-we-do {
+        flex-direction: row;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    #what-we-do > div > div.what-we-do > div {
+        flex: 1 1 40%;
+        max-width: 220px;
+        min-width: 160px;
+        margin: 20px;
+    }
 }
 
 /* mobile view */
@@ -414,5 +435,9 @@ header nav a img {
         font-size: 10px;
         margin-top: 0;
         padding: 8px 16px;
+    }
+
+    #what-we-do#what-we-do {
+        padding: 80px 30px;
     }
 }
