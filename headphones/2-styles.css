@@ -418,6 +418,7 @@ header nav a img {
         max-width: 220px;
         min-width: 160px;
         margin: 20px;
+        margin-bottom: -20px;
     }
 }
 
