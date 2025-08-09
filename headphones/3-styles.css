@@ -128,12 +128,6 @@ header nav a img {
     background-color: #fff;
     color: #1a1a1a;
 }
-#what-we-do h2 {
-    font-size: 36px;
-    font-weight: 700;
-    margin-bottom: 50px;
-    margin-top: 150px;
-}
 
 #what-we-do > div > span {
     display: block;
@@ -143,6 +137,7 @@ header nav a img {
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 80px;
+    margin-top: 150px;
 }
 
 #what-we-do > div > div.what-we-do {
@@ -161,7 +156,6 @@ header nav a img {
     font-size: 13px;
 }
 
-
 #what-we-do span.holberton_school-icon-ic_sound,
 #what-we-do span.holberton_school-icon-ic_hearing,
 #what-we-do span.holberton_school-icon-ic_music,
@@ -169,6 +163,84 @@ header nav a img {
     font-size: 90px; /* Make the icon larger */
     color: #FF6565; /* Give the icon a color */
     margin-bottom: 20px;
+}
+
+#our-results {
+    padding: 100px 140px;
+    text-align: center;
+    align-items: center;
+    background: linear-gradient(to bottom, rgba(10, 25, 47, 0.1) 70%, rgba(10, 25, 47, 0.7) 95%, rgba(10, 25, 47, 0.98) 100%), url('./images/images/headphones_hero_2.jpg') no-repeat center center/cover;
+    color:#f8f8f8 ;
+    height: 650px;
+}
+
+.result-content {
+    max-width: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.result-content span {
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    max-width: 600px;
+    line-height: 1.8;
+    margin-top: 120px;
+    margin-bottom: 60px;
+}
+
+.result-content > div.results {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0; 
+    width: 100%;
+    margin-top: 40px;
+}
+
+.result {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 160px;
+    margin: 0;
+    gap: 0;
+}
+
+.result img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.result h2 {
+    position: absolute;
+    font-size: 38px;
+    font-weight: 700;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 80px;
+}
+
+.result p {
+    position: absolute;
+    font-size: 10px;
+    font-weight: 400;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%);
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
 }
 
 /* Holberton School Icon Font */
@@ -291,11 +363,6 @@ header nav a img {
         padding: 80px 40px;
     }
 
-    #what-we-do h2 {
-        font-size: 32px;
-        margin-top: 100px;
-    }
-
     #what-we-do > div > div.what-we-do {
         flex-direction: row;
         display: flex;
@@ -307,6 +374,28 @@ header nav a img {
     }
 
     #what-we-do > div > div.what-we-do > div {
+        flex: 1 1 40%;
+        max-width: 220px;
+        min-width: 160px;
+        margin: 20px;
+    }
+
+    #our-results {
+        padding: 80px 40px;
+        height: 876px;
+    }
+
+    #our-results > div.result-content > div.results {
+        flex-direction: row;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    #our-results > div.result-content > div.results > div.result {
         flex: 1 1 40%;
         max-width: 220px;
         min-width: 160px;
@@ -447,12 +536,12 @@ header nav a img {
         padding: 8px 16px;
     }
 
-    #what-we-do {
+    #what-we-do#what-we-do {
         padding: 80px 30px;
     }
 
-    #what-we-do h2 {
-        font-size: 32px;
-        margin-top: 100px;
+    #our-results {
+        padding: 100px 40px;
+        height: 1491px;
     }
 }
