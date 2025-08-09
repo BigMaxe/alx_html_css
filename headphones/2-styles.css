@@ -129,6 +129,13 @@ header nav a img {
     color: #1a1a1a;
 }
 
+#what-we-do h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    margin-top: 150px;
+}
+
 #what-we-do > div > span {
     display: block;
     max-width: 680px;
@@ -174,6 +181,13 @@ header nav a img {
     height: 650px;
 }
 
+#our-results > div.result-content h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    margin-top: 80px;
+}
+
 .result-content {
     max-width: none;
     width: 100%;
@@ -190,7 +204,6 @@ header nav a img {
     font-weight: 400;
     max-width: 600px;
     line-height: 1.8;
-    margin-top: 120px;
     margin-bottom: 60px;
 }
 
@@ -221,7 +234,7 @@ header nav a img {
     margin-bottom: 10px;
 }
 
-.result h2 {
+.result h3 {
     position: absolute;
     font-size: 38px;
     font-weight: 700;
@@ -361,6 +374,11 @@ header nav a img {
 
     #what-we-do {
         padding: 80px 40px;
+    }
+
+    #what-we-do h2 {
+        font-size: 32px;
+        margin-top: 100px;
     }
 
     #what-we-do > div > div.what-we-do {
@@ -536,8 +554,13 @@ header nav a img {
         padding: 8px 16px;
     }
 
-    #what-we-do#what-we-do {
+    #what-we-do {
         padding: 80px 30px;
+    }
+
+    #what-we-do h2 {
+        font-size: 32px;
+        margin-top: 100px;
     }
 
     #our-results {
